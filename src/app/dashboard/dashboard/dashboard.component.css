@@ -1,0 +1,12 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Adjust margin as needed */
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
